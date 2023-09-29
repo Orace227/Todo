@@ -9,7 +9,7 @@ dotenvConfig();
 // conncted to db
 const db = connectToMongo();
 
-const port = 6969;
+const port = 7000;
 app.use(express.json());
 app.use(
   cors({
